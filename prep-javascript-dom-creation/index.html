@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript DOM Creation</title>
+</head>
+<body>
+  <div id="container">
+
+  </div>
+  <script>
+    var $container = document.querySelector('container');
+    console.log('container');
+
+    const h1 = document.createElement('h1');
+    h1.innerText = 'Hello World!';
+    document.body.append(h1);
+  </script>
+</body>
+</html>
